@@ -1,0 +1,54 @@
+#container{
+    width: 400px;
+    background-color: aqua;
+    padding: 20px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+ul,li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none ;
+}
+
+.list{
+    margin: 15px;
+}
+
+.list-li{
+    background-color: firebrick;
+    padding: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Btn{
+
+    display: flex;
+    justify-content: flex-end;
+    border-radius:1px;
+    color: white;
+    margin-top: 2px;
+
+}
+
+.Btn-btn{
+    border-radius:2px;
+    background-color: blue;
+    color: aliceblue;
+    border:none;
+    padding: 2,2px;
+    margin: 2px;
+}
+
+.Header{
+    text-align: center;
+    border-bottom: 2px black solid;
+}
